@@ -1,4 +1,4 @@
-test.iml
+*.iml
 out
 .idea
 .DS_STORE
