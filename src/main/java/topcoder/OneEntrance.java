@@ -1,13 +1,9 @@
 package topcoder;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 
 /**
- * Created by navid.mazaheri on 12/31/15.
+ * Created by navid on 12/31/15.
  * https://community.topcoder.com/stat?c=problem_statement&pm=13698
  */
 

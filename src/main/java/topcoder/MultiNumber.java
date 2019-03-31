@@ -1,7 +1,7 @@
 package topcoder;
 
 /**
- * Created by navid.mazaheri on 1/5/16.
+ * Created by navid on 1/5/16.
  * https://community.topcoder.com/stat?c=problem_statement&pm=10072&rd=13513
  */
 public class MultiNumber {

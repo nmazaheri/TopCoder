@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 /**
- * Created by navid.mazaheri on 12/29/15.
+ * Created by navid on 12/29/15.
  */
 public class IsItASquare {
     public static void main(String[] args) {

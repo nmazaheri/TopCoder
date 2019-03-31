@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by navid.mazaheri on 12/30/15.
+ * Created by navid on 12/30/15.
  * https://community.topcoder.com/stat?c=problem_statement&pm=12837
  */
 public class ColorfulRoad {

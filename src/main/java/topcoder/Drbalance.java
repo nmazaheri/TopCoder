@@ -1,7 +1,7 @@
 package topcoder;
 
 /**
- * Created by navid.mazaheri on 12/13/15.
+ * Created by navid on 12/13/15.
  * https://community.topcoder.com/stat?c=problem_statement&pm=14060
  * <p/>
  * Your goal is to change s into a string with negativity at most k in the fewest steps possible

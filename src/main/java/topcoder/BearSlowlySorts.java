@@ -3,7 +3,7 @@ package topcoder;
 import java.util.Arrays;
 
 /**
- * Created by navid.mazaheri on 12/7/15.
+ * Created by navid on 12/7/15.
  * https://community.topcoder.com/stat?c=problem_statement&pm=14083
  */
 

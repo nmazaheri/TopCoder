@@ -3,7 +3,7 @@ package topcoder;
 import java.util.HashMap;
 
 /**
- * Created by navid.mazaheri on 12/3/15.
+ * Created by navid on 12/3/15.
  * https://community.topcoder.com/stat?c=problem_statement&pm=3450
  */
 

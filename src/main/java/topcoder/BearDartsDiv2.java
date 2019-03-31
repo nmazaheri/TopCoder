@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by navid.mazaheri on 12/10/15.
+ * Created by navid on 12/10/15.
  * https://community.topcoder.com/stat?c=problem_statement&pm=13479
  * Possibilities to get a*b*c=d in sequential in natural order
  */

@@ -1,11 +1,10 @@
 package topcoder;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 /**
- * Created by navid.mazaheri on 1/8/16.
+ * Created by navid on 1/8/16.
  * https://community.topcoder.com/stat?c=problem_statement&pm=14098&rd=16627
  */
 public class PalindromePrime {

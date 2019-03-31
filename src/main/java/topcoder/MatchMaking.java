@@ -5,10 +5,9 @@ import java.util.Map;
 import java.util.TreeMap;
 
 /**
- * Created by navid.mazaheri on 12/3/15.
+ * Created by navid on 12/3/15.
  * https://community.topcoder.com/stat?c=problem_statement&pm=2911&rd=5849
  */
-
 public class MatchMaking {
     public static void main(String[] args) {
         MatchMaking matchMaking = new MatchMaking();
@@ -88,7 +87,7 @@ public class MatchMaking {
         Map<String, String> menNameAnswerMap = getTreeMap(namesMen, answersMen);
         Map<String, String> womanNameAnswerMap = getTreeMap(namesWomen, answersWomen);
 
-        Map<String, String> match = new HashMap();
+        Map<String, String> match = new HashMap<>();
         for (String wName : womanNameAnswerMap.keySet()) {
             match.put(wName, getBestMan(womanNameAnswerMap.get(wName), menNameAnswerMap));
         }
@@ -98,7 +97,7 @@ public class MatchMaking {
 
     private Map<String, String> getTreeMap(String[] names, String[] answers) {
         // guarantee order of key using treeMap
-        Map<String, String> map = new TreeMap();
+        Map<String, String> map = new TreeMap<>();
         for (int i = 0; i < names.length; i++) {
             map.put(names[i], answers[i]);
         }

@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * Created by navid.mazaheri on 1/8/16.
+ * Created by navid on 1/8/16.
  */
 public class FourStrings {
 

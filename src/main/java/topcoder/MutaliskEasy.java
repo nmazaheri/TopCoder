@@ -1,7 +1,7 @@
 package topcoder;
 
 /**
- * Created by navid.mazaheri on 12/29/15.
+ * Created by navid on 12/29/15.
  * https://community.topcoder.com/stat?c=problem_statement&pm=13782
  */
 public class MutaliskEasy {

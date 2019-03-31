@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * Created by navid.mazaheri on 1/5/16.
+ * Created by navid on 1/5/16.
  * https://community.topcoder.com/stat?c=problem_statement&pm=10036&rd=13513
  */
 public class BirthdayCake {
@@ -24,7 +24,7 @@ public class BirthdayCake {
         List<List<Integer>> fruitPeopleCanEat = new ArrayList<>();
         for (int fruitPos = 0; fruitPos < availableFruits.length; fruitPos++) {
             String fruit = availableFruits[fruitPos];
-            fruitPeopleCanEat.add(new ArrayList<Integer>());
+            fruitPeopleCanEat.add(new ArrayList<>());
 
             for (int friendPos = 0; friendPos < friendsDislikings.length; friendPos++) {
                 if (!Arrays.asList(friendsDislikings[friendPos].split(" ")).contains(fruit))
