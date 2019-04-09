@@ -10,20 +10,20 @@ public class MedalTable {
     private final static int MEDAL_COUNT = 3;
 
     public String[] generate(String[] results) {
-        Map<String, Medals> data = new HashMap<>();
+        Map<String, Country> data = new HashMap<>();
         for (String r : results) {
             String[] countries = r.split(" ");
             for (int i = 0; i < MEDAL_COUNT; i++) {
                 String country = countries[i];
-                data.putIfAbsent(country, new Medals(country));
+                data.putIfAbsent(country, new Country(country));
                 data.get(country).increment(i);
             }
         }
-        return data.values().stream().sorted().map(Medals::toString).toArray(String[]::new);
+        return data.values().stream().sorted().map(Country::toString).toArray(String[]::new);
     }
 
-    public class Medals implements Comparable<Medals> {
-        public Medals(String country) {
+    public class Country implements Comparable<Country> {
+        public Country(String country) {
             this.country = country;
         }
 
@@ -44,7 +44,7 @@ public class MedalTable {
         }
 
         @Override
-        public int compareTo(Medals o) {
+        public int compareTo(Country o) {
             for (int i = 0; i < MEDAL_COUNT; i++) {
                 int flag = o.getValue(i) - this.getValue(i);
                 if (flag != 0) {
