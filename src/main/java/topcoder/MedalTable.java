@@ -1,4 +1,4 @@
-package medaltable;
+package topcoder;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package medaltable;
+package topcoder;
 
 import org.junit.jupiter.api.Test;
 
